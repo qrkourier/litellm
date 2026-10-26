@@ -1,0 +1,42 @@
+{
+  "before": "f96200bcea3a08adcd08ad4eb5ad169d226cdda5",
+  "after": "0a5ac188974eda250cec370724fcfb97f65931ea",
+  "observations": [
+    {
+      "source": "before",
+      "api": "chat",
+      "answer": "No `OBSERVED_` token was present in the tool result.",
+      "token_read": false
+    },
+    {
+      "source": "before",
+      "api": "responses",
+      "answer": "No `OBSERVED_` token was present in the tool result.",
+      "token_read": false
+    },
+    {
+      "source": "before",
+      "api": "messages",
+      "answer": "No `OBSERVED_` token was present in the tool result.",
+      "token_read": false
+    },
+    {
+      "source": "after",
+      "api": "chat",
+      "answer": "OBSERVED_56ae02dc79",
+      "token_read": true
+    },
+    {
+      "source": "after",
+      "api": "responses",
+      "answer": "OBSERVED_56ae02dc79",
+      "token_read": true
+    },
+    {
+      "source": "after",
+      "api": "messages",
+      "answer": "OBSERVED_56ae02dc79",
+      "token_read": true
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+model_list:
+  - model_name: minimax-tool-result
+    litellm_params:
+      model: ollama_chat/minimax-m3.1-flash:cloud
+      api_base: http://127.0.0.1:11434
+      reasoning_effort: none
+router_settings:
+  num_retries: 0

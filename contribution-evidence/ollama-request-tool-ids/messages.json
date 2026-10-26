@@ -1,0 +1,32 @@
+{
+  "model": "minimax-tool-result",
+  "stream": false,
+  "max_tokens": 512,
+  "messages": [
+    {
+      "role": "user",
+      "content": "Report the exact OBSERVED_ token in the tool result. Do not invent it or call tools again."
+    },
+    {
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_use",
+          "id": "call_fixture",
+          "name": "read_fixture",
+          "input": {}
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "tool_result",
+          "tool_use_id": "call_fixture",
+          "content": "OBSERVED_56ae02dc79"
+        }
+      ]
+    }
+  ]
+}
