@@ -1,40 +1,46 @@
 {
-  "before": "f96200bcea3a08adcd08ad4eb5ad169d226cdda5",
-  "after": "0a5ac188974eda250cec370724fcfb97f65931ea",
+  "before": "6d9344535093b6ad5a1b246af449c20d1db46004",
+  "after": "0b55d17376ad07c7c69c87c02892513c20225ca5",
   "observations": [
     {
-      "source": "before",
+      "phase": "before",
       "api": "chat",
+      "port": 18768,
       "answer": "No `OBSERVED_` token was present in the tool result.",
       "token_read": false
     },
     {
-      "source": "before",
+      "phase": "before",
       "api": "responses",
+      "port": 18768,
       "answer": "No `OBSERVED_` token was present in the tool result.",
       "token_read": false
     },
     {
-      "source": "before",
+      "phase": "before",
       "api": "messages",
+      "port": 18768,
       "answer": "No `OBSERVED_` token was present in the tool result.",
       "token_read": false
     },
     {
-      "source": "after",
+      "phase": "after",
       "api": "chat",
+      "port": 18769,
       "answer": "OBSERVED_56ae02dc79",
       "token_read": true
     },
     {
-      "source": "after",
+      "phase": "after",
       "api": "responses",
+      "port": 18769,
       "answer": "OBSERVED_56ae02dc79",
       "token_read": true
     },
     {
-      "source": "after",
+      "phase": "after",
       "api": "messages",
+      "port": 18769,
       "answer": "OBSERVED_56ae02dc79",
       "token_read": true
     }
